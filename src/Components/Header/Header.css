@@ -7,6 +7,10 @@
 	color: #fff;
 }
 
+.header__avatar {
+	cursor: pointer;
+}
+
 .header__left {
 	display: flex;
 	flex: 0.3;
@@ -17,6 +21,7 @@
 .header__left > .MuiSvgIcon-root {
 	margin-left: auto;
 	margin-right: 30px;
+	cursor: pointer;
 }
 
 .header__search {
@@ -32,9 +37,11 @@
 
 .header__search > input {
 	background-color: transparent;
+	border-color: none;
 	border: none;
 	text-align: center;
 	min-width: 35vw;
+	color: #fff;
 }
 
 .header__right {
@@ -46,4 +53,5 @@
 .header__right > .MuiSvgIcon-root {
 	margin-left: auto;
 	margin-right: 20px;
+	cursor: pointer;
 }

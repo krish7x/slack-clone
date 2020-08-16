@@ -3,6 +3,7 @@
 	color: white;
 	max-width: 260px;
 	border-top: 1px solid var(--slack-border);
+	flex: 0.3;
 }
 
 .sidebar > hr {
@@ -24,6 +25,7 @@
 	font-size: 18px;
 	background-color: #fff;
 	border-radius: 999px;
+	cursor: pointer;
 }
 
 .sidebar__info {
@@ -48,4 +50,11 @@
 	margin-top: 1px;
 	margin-right: 2px;
 	color: green;
+}
+
+@media (min-width: 720px) and (max-width: 645px) {
+	.sidebar {
+		flex: 0.5 1;
+		max-width: 270px;
+	}
 }

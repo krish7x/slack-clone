@@ -2,5 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
-ReactDOM.render(<App />, document.getElementById('root'));
+import { StateProvider } from './Context API/StateProvider';
+import reducer, { initialState } from './Context API/reducer';
+ReactDOM.render(
+	<StateProvider reducer={reducer} initialState={initialState}>
+		<App />
+	</StateProvider>,
+	document.getElementById('root')
+);

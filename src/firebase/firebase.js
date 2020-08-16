@@ -11,4 +11,14 @@ const firebaseConfig = {
 	measurementId: 'G-ZQVZ5HNQMN'
 };
 
-firebase.initializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const db = firebaseApp.firestore();
+export const auth = firebaseApp.auth();
+export const provider = new firebase.auth.GoogleAuthProvider();
+
+export default db;
+
+// import {db, auth, provide} = implicit imports
+// if we give like  [ export default db ]
+// we can import it directly import db from "./firebase.js" = explicit imports

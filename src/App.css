@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 body {
 	--slack-color: #3f0f40;
 	--slack-search: #421f44;
 	--slack-border: #49274b;
 	--slack-hover: #340e36;
+
+	font-family: 'Nunito', sans-serif;
+	overflow: hidden;
+}
+
+.app__body {
+	display: flex;
+	height: 100vh;
 }
