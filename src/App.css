@@ -14,3 +14,9 @@ body {
 	display: flex;
 	height: 100vh;
 }
+
+@media (max-width: 440px) {
+	.app__body {
+		height: 180vh;
+	}
+}

@@ -89,3 +89,12 @@
 .chatInput > form > button {
 	display: none !important;
 }
+
+@media (max-width: 440px) {
+	.chatInput > form > input {
+		max-width: 50%;
+		bottom: 0px;
+		right: 8px;
+		display: flex;
+	}
+}

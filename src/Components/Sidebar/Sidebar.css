@@ -52,9 +52,16 @@
 	color: green;
 }
 
-@media (min-width: 720px) and (max-width: 645px) {
+/* @media (min-width: 720px) and (max-width: 645px) {
 	.sidebar {
 		flex: 0.5 1;
 		max-width: 270px;
+	}
+} */
+
+@media (max-width: 500px) {
+	.sidebar {
+		flex: 0.6 1;
+		max-width: 260px;
 	}
 }
