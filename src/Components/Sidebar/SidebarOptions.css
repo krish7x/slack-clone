@@ -4,6 +4,7 @@
 	font-size: 12px;
 	padding-left: 12px;
 	cursor: pointer;
+	margin-bottom: 10px;
 }
 
 .sidebarOptions:hover {
@@ -18,6 +19,11 @@
 
 .sidebarOptions__channel {
 	padding: 10px 0;
+	overflow: scroll;
+}
+
+.sidebarOptions__channel::-webkit-scrollbar {
+	display: none;
 }
 
 .sidebarOptions__hash {
