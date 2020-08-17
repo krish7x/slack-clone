@@ -64,9 +64,9 @@
 	}
 } */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	.sidebar {
-		flex: 0.6 1;
+		flex: 0.5 1;
 		max-width: 260px;
 	}
 }
