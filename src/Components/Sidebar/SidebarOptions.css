@@ -33,3 +33,9 @@
 .sidebarOptions > h3 {
 	font-weight: 500;
 }
+
+@media (max-width: 440px) {
+	.sidebarOptions {
+		overflow: scroll;
+	}
+}
